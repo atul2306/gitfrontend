@@ -1,0 +1,93 @@
+.D-dashboard {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+.D-dashboar{
+    display: flex;
+    width: 15%;
+    align-items: baseline;
+  
+    flex-direction: column;
+    position: relative;
+    left: 6%;
+    top: 1.5%;
+    justify-content: center;
+    height: 15%;
+}
+.D-dashboar h2 {
+    display: flex;
+    color: white;
+    
+    font-family: serif;
+  
+}
+.D-dasboa{
+    display: flex;
+    width: 70%;
+    height: 25%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 6%;
+    justify-content: space-between;
+}
+.CircularProgressbar{
+    width: 35% !important;
+    display: flex;
+}
+.CircularProgressbar .CircularProgressbar-text{
+    font-size: inherit !important;
+    fill: rgb(161, 99, 161) !important;
+}
+.CircularProgressbar .CircularProgressbar-path{
+    stroke: #bb1bd8 !important;
+    
+}
+.CircularProgressbar .CircularProgressbar-trail{
+    stroke: #303428 !important;
+    
+}
+.D-dashbo .CircularProgressbar .CircularProgressbar-path{
+    stroke: #ffffff !important;
+    fill: #ffffff !important;
+}
+.D-dashboe .CircularProgressbar .CircularProgressbar-path{
+    stroke: #8a1919 !important;
+   
+}
+.D-dashboe .CircularProgressbar .CircularProgressbar-text{
+    
+    fill: #8a1919 !important;
+}
+.D-dashbo .CircularProgressbar .CircularProgressbar-text{
+   
+    fill: #ffffff !important;
+}
+.D-dash{
+    display: flex;
+    width: 20%;
+    position: relative;
+    left: 56%;
+    
+    flex-direction: column;
+}
+.progressbar-container{
+    margin-top: 10%;
+    width: 80%;
+    display: flex;
+    position: relative;
+    left: 50%;
+    border-radius: 1rem;
+    bottom: 48%;
+    background-color: #303428;
+}
+.D-dash ul{
+    position: relative;
+    right: 10%;
+    font-size: 80%;
+    list-style: circle;
+}
+.progressbar-progress a{
+    background-color: #61dafb !important;
+}
